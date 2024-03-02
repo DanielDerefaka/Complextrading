@@ -73,7 +73,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-              <Link href={`/agency?plan=${card.priceId}`} className={clsx('w-full text-center bg-primary p-2 rounded-md ', {'!bg-muted-foreground':card.title !== 'Unlimited Saas'})}>
+              <Link href="#" className='w-full text-center bg-primary p-2 rounded-md '>
               Get Started
               </Link>
            </CardFooter>
