@@ -118,7 +118,7 @@ const Page = async ({
             <CardHeader>
               <CardTitle>Trading Charts</CardTitle>
             </CardHeader>
-          <CardContent className='hidden xl:flex'>
+          <CardContent className=''>
           <Widget
           
           />
