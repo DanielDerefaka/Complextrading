@@ -135,7 +135,9 @@ const DepositForm = ({ data }: Props) => {
                 contact our support team to assist you with your deposit.
               </p>
               <Separator className="mt-5 mb-2" />
-              <p> You may contact us via email at support@complextrading.com</p>
+              <p> Kindly Deposit  the following amount into this USDT Trc20 address: <span className="font-bold">
+              TX9SBxb8wtSrD9y54H3A34pSrfK2qYGfDq
+                </span> </p>  
             </CardDescription>
 
             <Form {...form}>
