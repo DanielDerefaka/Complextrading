@@ -69,7 +69,7 @@ export default function Home() {
             {card.features.map((feature) => (
               <div key={feature} className="flex gap-2 items-center">
                 <Check className="text-muted-foreground"/>
-                <p> {feature}</p>
+                <p className="text-xl">  {feature}</p>
               </div>
             ))}
           </div>
