@@ -58,7 +58,7 @@ const Page = async ({
               <CardDescription>Balance</CardDescription>
               <CardTitle className="text-4xl">
                 {/* {net ? `${currency} ${net.toFixed(2)}` : `$0.00`} */}
-                ${getBalance.amount}.00
+                ${getBalance.amount}
               </CardTitle>
               <small className="text-xs text-muted-foreground">
                 For the year {currentYear}
@@ -67,7 +67,7 @@ const Page = async ({
             <CardContent className="text-sm text-muted-foreground">
               Total Balance for this account dashboard.
             </CardContent>
-            <DollarSign className="absolute right-4 top-4 text-muted-foreground" />
+            {/* <DollarSign className="absolute right-4 top-4 text-muted-foreground" /> */}
           </Card>
           <Card className="flex-1 relative">
             <CardHeader>
@@ -84,7 +84,7 @@ const Page = async ({
             <CardContent className="text-sm text-muted-foreground">
               This is how much you can close.
             </CardContent>
-            <DollarSign className="absolute right-4 top-4 text-muted-foreground" />
+            {/* <DollarSign className="absolute right-4 top-4 text-muted-foreground" /> */}
           </Card>
           
           <Card className="flex-1 relative">
