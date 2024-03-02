@@ -16,7 +16,7 @@ export default function Home() {
         Combining a Transparent Trading Environment with the Best Pricing
       </p>
       <div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative">
-        <h1 className="text-9xl font-bold text-center md:text-[300px]">
+        <h1 className="text-8xl font-bold text-center md:text-[300px]">
           Trading
         </h1>
       </div>
