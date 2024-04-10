@@ -126,7 +126,7 @@ const page = async () => {
                       {deposit.id.substring(0, 5)}
                     </TableCell>
                     <TableCell>{deposit.name}</TableCell>
-                    <TableCell>${deposit.agencyId}</TableCell>
+                    <TableCell>${deposit.email}</TableCell>
                     {/* <TableCell>{deposit.createdAt}</TableCell> */}
                     <TableCell className="">
                       <Image

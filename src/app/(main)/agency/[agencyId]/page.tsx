@@ -127,7 +127,7 @@ const Page = async ({
         
           <Card className="xl:w-[400px] w-full">
             <CardHeader>
-              <CardTitle>Convers ions</CardTitle>
+              <CardTitle>Conversions</CardTitle>
             </CardHeader>
             
           </Card>
